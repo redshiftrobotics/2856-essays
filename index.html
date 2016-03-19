@@ -9,7 +9,7 @@ header-img: "img/home-bg.jpg"
 <hr>
 
 
-{% for post in paginator.posts %}
+{% for post in paginator.posts reversed %}
     
 
 <div class="post-preview">
@@ -25,5 +25,5 @@ header-img: "img/home-bg.jpg"
     </a>
     
 </div>
-{% for post in paginator.posts reversed %}
+{% endfor %}
 
