@@ -11,7 +11,6 @@ header-img: "img/home-bg.jpg"
 <h2>Make Sure To Check Back!</h2>
 
 {% for post in paginator.posts %}
-{% if post.categories contains 'essay' %}
     
 
 <div class="post-preview">
@@ -27,6 +26,5 @@ header-img: "img/home-bg.jpg"
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ post.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-{% endif %}
 {% endfor %}
 
