@@ -7,8 +7,7 @@ header-img: "img/home-bg.jpg"
 
 <h1>Essays</h1>
 <hr>
-<h1>Essays Coming Soon!</h1>
-<h2>Make Sure To Check Back!</h2>
+
 
 {% for post in paginator.posts %}
     
@@ -24,7 +23,7 @@ header-img: "img/home-bg.jpg"
         {% endif %}
 
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ post.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    
 </div>
 {% endfor %}
 
