@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Competitions"
-subtitle:   "Focus of The Day: Troubleshooting during drive practice"
+subtitle:   "2856"
 date:       2016-03-12 20:04:12
 ---
 
@@ -10,3 +10,7 @@ date:       2016-03-12 20:04:12
 </object>
 
 <iframe src="img/comp.pdf" style="width:100%; height:100%;" frameborder="0"></iframe>
+
+<embed src="img/comp.pdf" width="500" height="375" type='application/pdf'>
+
+<embed src="img/comp.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
