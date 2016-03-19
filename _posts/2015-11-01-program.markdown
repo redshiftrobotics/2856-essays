@@ -5,6 +5,6 @@ subtitle:   "2856"
 date:       2015-11-01s 20:04:12
 ---
 
-<object data="http://essays.2856.io/img/program.pdf" type="application/pdf" width="100%" height="1000px">
+<object data="http://essays.2856.io/img/program.pdf" type="application/pdf" width="125%" height="1000px">
   <p></a></p>
 </object>
